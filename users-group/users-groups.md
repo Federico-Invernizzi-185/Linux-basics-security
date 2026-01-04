@@ -5,7 +5,7 @@
 Linux is a multi-user operating system, meaning that multiple users
 can work on the same system with different levels of access.
 
-Each user is identified by a unique user ID (UID) and has specific
+Each user is identified by a unique user ID and has specific
 permissions that define what they can read, modify or execute.
 
 ## Root and standard users
