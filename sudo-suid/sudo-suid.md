@@ -2,7 +2,7 @@
 
 ## What is sudo
 
-`sudo` allows a permitted user to execute a command as the root user
+Sudo allows a permitted user to execute a command as the root user
 or another user, according to system configuration.
 
 It is commonly used by system administrators to perform tasks that
@@ -15,7 +15,7 @@ It has unrestricted access to the entire system and can read, modify
 or delete any file and configuration.
 
 For security reasons, direct access to the root account is usually
-restricted, and administrative tasks are performed using `sudo`.
+restricted, and administrative tasks are performed using Sudo.
 
 ## What is SUID
 
@@ -36,12 +36,12 @@ and limited to trusted system binaries only.
 
 ## Practical example
 
-The presence of the SUID bit can be identified using the `ls -l` command.
+The presence of the SUID bit can be identified using the 'ls -l' command.
 
 Example:
 -rwsr-xr-x
 
-In this case, the `s` in the owner execute position indicates that
+In this case, the 's' in the owner execute position indicates that
 the binary will run with the privileges of its owner.
 
 System administrators should regularly check for unexpected SUID
